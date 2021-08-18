@@ -49,8 +49,9 @@ public:
         opts.input_string(inp.c_str());
 
         if (comm->getName() == "VNV:mpi") {
-            MPI_Comm* c = (MPI_Comm*) comm->raw();
-            return new Dakota::LibraryEnvironment(*c,opts);
+           //Vst
+	   // 	MPI_Comm* c = (MPI_Comm*) comm->raw();
+           // return new Dakota::LibraryEnvironment(*c,opts);
         }
         return new Dakota::LibraryEnvironment(opts);
     }
