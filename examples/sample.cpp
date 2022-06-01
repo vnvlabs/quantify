@@ -31,7 +31,7 @@ int main(int argc, char** argv) {
    *
    *
    */
-  INJECTION_ITERATION(a, VNV_STR(SampleApplication), VWORLD, "dakotaLoop", 1, 2, x , y, f ) {
+  INJECTION_ITERATION(a, SampleApplication, VWORLD, dakotaLoop, 1, 2, x , y, f ) {
      f = (x + y)*(x + y) + 100*x - 10*y;
   }
 
