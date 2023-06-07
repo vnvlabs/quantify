@@ -4,7 +4,7 @@
 
 #define SPNAME DakotaExample
 
-INJECTION_EXECUTABLE(SPNAME)
+INJECTION_EXECUTABLE(SPNAME,"{}")
 
 int main(int argc, char** argv) {
 
